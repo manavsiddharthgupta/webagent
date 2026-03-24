@@ -10,6 +10,7 @@ export default defineConfig({
     name: "WebAgent",
     description: "AI browser companion — chat with any page, fill forms with your profile",
     permissions: ["activeTab", "storage"],
+    host_permissions: ["http://localhost:3000/*"],
     action: {},
   },
 });
