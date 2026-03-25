@@ -1,4 +1,4 @@
-import type { PageContext } from "../types"
+import type { PageContext } from "../types.js"
 
 export function buildSystemPrompt(pageContext: PageContext): string {
   const hasFields = pageContext.fields.length > 0

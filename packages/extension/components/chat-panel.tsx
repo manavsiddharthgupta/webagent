@@ -38,7 +38,7 @@ import { API_BASE } from "@/lib/api"
 import type { PageContext } from "@/lib/types"
 import type { ToolCallHandler } from "@/entrypoints/content/index"
 // Type-only import — erased at compile time, no runtime dependency on web package
-import type { MyAgentUIMessage } from "../../web/src/app/api/chat/route"
+import type { MyAgentUIMessage } from "../../web/src/lib/agent"
 
 // Infer the part type from the message
 type AgentPart = MyAgentUIMessage["parts"][number]

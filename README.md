@@ -7,7 +7,7 @@ An AI browser extension that adds an agent to every webpage. It lives in a sideb
 ```
 packages/
   extension/   # Chrome extension (WXT + React)
-  web/         # API backend (Next.js)
+  web/         # API backend (Express + TypeScript)
 ```
 
 ## Setup
@@ -31,7 +31,7 @@ WXT_API_BASE=http://localhost:3000
 Run both in separate terminals:
 
 ```bash
-pnpm dev:web   # starts Next.js on port 3000
+pnpm dev:web   # starts the Express API on port 3000
 pnpm dev:ext   # starts extension with hot reload
 ```
 
